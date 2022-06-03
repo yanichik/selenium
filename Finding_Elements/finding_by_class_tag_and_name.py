@@ -1,5 +1,3 @@
-from itertools import product
-from lib2to3.pgen2 import driver
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -15,5 +13,5 @@ print(product)
 print("__________________________")
 print(products)
 
-# finding by class tag
+# finding by 'name'
 order_by = driver.find_element(By.NAME, "orderby")
